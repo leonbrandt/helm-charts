@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  fission-all:
+  - apiVersion: v1
+    appVersion: 1.12.0
+    created: "2021-02-28T14:31:19.938662119+01:00"
+    dependencies:
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: https://charts.helm.sh/stable
+      version: 9.3.1
+    description: Fission is a fast serverless framework for Kubernetes.
+    digest: 86da8aa8e2bb070747527e59923aafa06317c715e93d1e9810c4367d6d4ca40b
+    keywords:
+    - fission
+    - serverless
+    name: fission-all
+    urls:
+    - https://leonbrandt.github.io/helm-charts/fission-all-1.12.0.tgz
+    version: 1.12.0
+generated: "2021-02-28T14:31:19.927519031+01:00"
