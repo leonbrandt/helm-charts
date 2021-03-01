@@ -3,7 +3,7 @@ entries:
   fission-all:
   - apiVersion: v1
     appVersion: 1.12.0
-    created: "2021-02-28T14:31:19.938662119+01:00"
+    created: "2021-03-01T06:04:41.431996144+01:00"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -18,4 +18,15 @@ entries:
     urls:
     - https://leonbrandt.github.io/helm-charts/fission-all-1.12.0.tgz
     version: 1.12.0
-generated: "2021-02-28T14:31:19.927519031+01:00"
+  tcp-ws-bridge:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2021-03-01T06:04:41.432419705+01:00"
+    description: A bridge for tunneling tcp traffic to websocket
+    digest: 65ddfadaa9e81b124cc9ff995764dc9ae92f186294ee7ec37f9c818e52be3d5b
+    name: tcp-ws-bridge
+    type: application
+    urls:
+    - https://leonbrandt.github.io/helm-charts/tcp-ws-bridge-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-03-01T06:04:41.42638668+01:00"
