@@ -3,7 +3,7 @@ entries:
   fission-all:
   - apiVersion: v1
     appVersion: 1.12.0
-    created: "2021-03-05T11:41:31.112858039+01:00"
+    created: "2021-03-05T12:06:32.118636044+01:00"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -21,9 +21,9 @@ entries:
   mqtt-kafka-bridge:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-03-05T11:41:31.113187169+01:00"
+    created: "2021-03-05T12:06:32.11898531+01:00"
     description: A bridge for publishing mqtt messages to kafka
-    digest: 777f24b9787a27cd053f09663d06f94e5120fd6bcdf436e89ce4d4b614deab4a
+    digest: ed483466a3458a99836bdc41759e81fba4249dfc42753fd0d167d102e5d644a4
     name: mqtt-kafka-bridge
     type: application
     urls:
@@ -32,12 +32,12 @@ entries:
   tcp-ws-bridge:
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2021-03-05T11:41:31.113665582+01:00"
+    created: "2021-03-05T12:06:32.119403416+01:00"
     description: A bridge for tunneling tcp traffic to websocket
-    digest: 52412346f6b34f714725e2b511e08d3312dfd2d9aa09c9504e8b42897d85188d
+    digest: c63c1fa7d328bb30ba5339a32c195fb8ecb9d1cb283a5f45617ef2afd3f9c7a2
     name: tcp-ws-bridge
     type: application
     urls:
     - https://leonbrandt.github.io/helm-charts/tcp-ws-bridge-0.2.0.tgz
     version: 0.2.0
-generated: "2021-03-05T11:41:31.107333355+01:00"
+generated: "2021-03-05T12:06:32.114461375+01:00"
